@@ -2,7 +2,8 @@
 	<?php
 		$depname=$_GET["depname"];	
 		 $name=$_GET["t1"];
-		 $name=str_replace(" ","",$name);
+		 $name=str_replace(" ","#",$name);
+		 $name=str_replace(".", "_",$name);
 
 		if(isset($_GET["submit"]))
 		{

@@ -23,7 +23,7 @@ if (strpos($input, '8204') !== false)
     <body>
         <form name="analysadmin" action="" method="post">
         Login:<input type="text" name="t1"/><br>
- <input name="submit" type="submit" value="submit"></type>
+ <input name="submit1" type="submit" value="submit"></type>
         </form>
      	</body>
         </html>
